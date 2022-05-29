@@ -4,6 +4,7 @@ buildscript {
     }
     repositories {
         mavenCentral()
+        jcenter()
     }
 
     dependencies {
@@ -18,10 +19,12 @@ apply plugin: 'io.spring.dependency-management'
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 group 'com.jojoldu.book'
 version '1.0-SNAPSHOT'
+sourceCompatibility = '1.8'
 
 repositories {
     mavenCentral()
